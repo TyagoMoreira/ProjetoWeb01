@@ -1,0 +1,44 @@
+.card-atleta {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+}
+
+.card-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1em;
+  color: #666;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #a72828;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ed7c3e;
+}

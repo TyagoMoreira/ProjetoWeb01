@@ -1,0 +1,10 @@
+.painel-favoritos {
+  margin-top: 30px;
+}
+
+.favoritos-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}

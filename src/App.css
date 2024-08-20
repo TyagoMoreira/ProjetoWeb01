@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-container input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  width: 300px;
+}
+
+.search-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 1px solid #a72828;
+  border-radius: 0 5px 5px 0;
+  background-color: #a72828;
+  color: white;
+  cursor: pointer;
+}
+
+.search-container button:hover {
+  background-color: #ed7c3e;
+}
+
+.atletas-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
